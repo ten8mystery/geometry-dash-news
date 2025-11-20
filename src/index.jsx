@@ -163,11 +163,11 @@ export default function GeometryDashMenuUI() {
       {showCredits && (
         <SlidePanel title="Credits" onClose={() => setShowCredits(false)}>
           <div className="flex flex-col gap-3 text-sm text-slate-300">
-            <div><strong>UI</strong>: Custom modern UI by you + ChatGPT</div>
+            <div><strong>UI</strong>: Most code by ZincGMD</div>
             <div><strong>Player</strong>: gdl-eosin (embedded)</div>
             <div><strong>Assets</strong>: IGN image used as icon (linked)</div>
             <div><strong>Built with</strong>: React + TailwindCSS</div>
-            <div className="mt-2 text-xs opacity-60">Made with ❤️ — thanks for using this UI.</div>
+            <div className="mt-2 text-xs opacity-60">Made with ❤️ — thanks for using this site!.</div>
           </div>
         </SlidePanel>
       )}
